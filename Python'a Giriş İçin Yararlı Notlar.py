@@ -51,3 +51,6 @@ pip install -r requirements.txt
 # Cmd den bir python dosyası oluşturmak için =>
 type nul > dosyaadi.py
 # bulunduğunuz dizinde dosyaadi.py adında bir python dosyası oluşturur.
+# Açtığımız dosyayı silmek içinse o dizindeyken
+del dosyaadi.py 
+# yazmamız yeterli.

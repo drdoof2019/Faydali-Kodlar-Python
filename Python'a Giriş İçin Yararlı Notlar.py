@@ -47,3 +47,7 @@ pip freeze > requirements.txt
 
 #Bir kullanıcı bu requirements dosyasının içindeki paketleri yükleyip programınızı çalıştırabilmesi için tek yapması gereken şu.
 pip install -r requirements.txt
+
+# Cmd den bir python dosyası oluşturmak için =>
+type nul > dosyaadi.py
+# bulunduğunuz dizinde dosyaadi.py adında bir python dosyası oluşturur.

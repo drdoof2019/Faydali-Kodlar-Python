@@ -1,4 +1,4 @@
-#Python'a yeni başlayanlar için kısa öz bilgiler
+#Python'a yeni başlayanlar için kısa öz bilgiler (windows kullanıcıları için)
 
 # Bu komut ile istediğiniz modülü yükleyebilirsiniz. Örneğin projede requests modülü kullanacaksınız. 'pip install requests' yazmanız yeterli
 pip install [paketadı]

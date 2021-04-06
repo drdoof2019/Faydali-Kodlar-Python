@@ -54,3 +54,13 @@ type nul > dosyaadi.py
 # Açtığımız dosyayı silmek içinse o dizindeyken
 del dosyaadi.py 
 # yazmamız yeterli.
+
+# .py dosyasını .exe ye çevirmek için
+pip install pyinstaller
+pyinstaller --onefile -w main.py
+# Not: Burada programın konsoldan çalışmasını istiyorsak -w kesinlikle koymamalıyız.
+# Bu program çıktı olarak .exe file veriyor. Bu şekilde gönderince python yüklü olmayan bilgisayarda dahi program çalışır.
+
+# Bir sonraki seviye ise setup dosyası oluşturmaktır. Bunu NSIS programını googledan indirerek yapıyoruz. Yada linki şu
+# https://nsis.sourceforge.io/Download
+# Tek yapmamız gereken NSIS programına -exe dosyasını zip haline getirip- vermek. Setup dosyamız hazır.

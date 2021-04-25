@@ -143,12 +143,16 @@ Dosyaya Erişme Kipleri
 
 
 
+#Aşağıdaki 2 kodda aynı
+dosya = open("falanca_dosya.txt", "w")
+for metot in dir(dosya):
+    if not metot.startswith("_"):
+        print(metot, sep="\n")
 
 
-
-
-
-
+dosya = open("falanca_dosya.txt", "w")
+print(*[metot for metot in dir(dosya) if not metot.startswith("_")], sep="\n")
+#Bunlarla kullanılabilir metodları öğrenebiliriz. Faydalı olabilir.
 
 
 

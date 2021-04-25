@@ -37,6 +37,11 @@ fihrist = open("fihrist.txt")
 print(fihrist.readlines())
 fihrist.close()
 #output => ['Ahmet Özbudak : 0533 123 23 34\n', 'Mehmet Sülün : 0532 212 22 22\n', 'Sami Sam : 0542 333 34 34']
+#sorun şu ki sonuna \n koyup duruyor.
+
+with open(filename) as f:
+    mylist = f.read().splitlines() 
+#Burda bu sorunu çözdük
 
 # YANİ read VE readline OUTPUT OLARAK STRING VERİRKEN readlines LİSTE VERİR.
 

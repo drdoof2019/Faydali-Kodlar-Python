@@ -21,3 +21,5 @@ internet_set_option = ctypes.windll.Wininet.InternetSetOptionW
 
 internet_set_option(0, INTERNET_OPTION_SETTINGS_CHANGED, 0, 0)
 internet_set_option(0, INTERNET_OPTION_REFRESH, 0, 0)
+
+# source : https://stackoverflow.com/questions/3050262/change-browser-proxy-settings-from-python
